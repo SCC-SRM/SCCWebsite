@@ -1,2 +1,0 @@
-# SCCWebsite
-club website
