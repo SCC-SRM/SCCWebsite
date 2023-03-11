@@ -31,11 +31,11 @@ function Contact() {
       <div>
           <div className="bg-white rounded-xl shadow-lg p-8 w-full md:w-80">
             <form action="" className="flex flex-col space-y-4 w-full">
-              <div><label htmlFor="" className="text-sm">Your Name</label><input type="text" placeholder="Your Name" className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
+              <div><label htmlFor="" className="text-sm">Name</label><input type="text" placeholder="Name" className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
 
 
             
-              <div><label htmlFor="" className="text-sm">Your Email</label><input type="email" placeholder="Your Email " className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
+              <div><label htmlFor="" className="text-sm">Email</label><input type="email" placeholder="Email " className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
               
               <div><label htmlFor="" className="text-sm">Message</label><textarea type="text" placeholder="message" rows="4" className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
 
@@ -49,6 +49,9 @@ function Contact() {
     </div>
       
    </div>
+
+
+
    
   );
 }
