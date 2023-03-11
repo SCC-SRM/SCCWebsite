@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <div className="min-h-full">
       <h1>This is About</h1>
     </div>
   );

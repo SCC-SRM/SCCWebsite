@@ -2,14 +2,16 @@ import About from "./components/about/About";
 import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Projects from "./components/projects/Projects";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="h-full">
       <Home />
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
