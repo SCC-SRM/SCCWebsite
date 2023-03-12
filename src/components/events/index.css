@@ -1,0 +1,76 @@
+body {
+    background-color: #CAD2C5;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
+  .header {
+    padding: 1rem;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .header {
+      padding: 1rem;
+      
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .header {
+      padding: 1rem;
+    }
+  }
+  
+  .relative {
+    padding: 4rem;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .relative {
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .relative {
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .relative {
+      padding: 4rem;
+    }
+  }
+  
+  .hello {
+    padding: 4rem;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .hello {
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hello {
+      padding: 4rem;
+      left:300px
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .hello {
+      padding: 4rem;
+      left:500px
+    }
+  }
+  
