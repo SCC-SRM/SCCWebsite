@@ -5,6 +5,9 @@ import Projects from "./components/projects/Projects";
 import Events from "./components/events/Events";
 import Footer from "./components/footer/Footer";
 
+import Domains from "./components/domains/Domains";
+
+
 function App() {
   return (
     <div className="h-full">
@@ -12,6 +15,7 @@ function App() {
       <Events/>
       <About />
       <Projects />
+      <Domains/>
       <Contact />
       <Footer />
     </div>
