@@ -36,7 +36,7 @@ function About() {
         <figure class="relative max-w-7xl ">
           <img
             class="rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-            src="public/about3.jpeg"
+            src="/about3.jpeg"
             alt="about image"
           ></img>
         </figure>
@@ -66,7 +66,7 @@ function About() {
           <figure class="relative max-w-7xl cursor-pointer filter ">
           <img
             class="rounded-lg max-w-2xl ml-64 mt-5  transition-all duration-300 grayscale hover:grayscale-0"
-            src="public/about2.jpeg"
+            src="/about2.jpeg"
             alt="history image"
           ></img>
         </figure>
