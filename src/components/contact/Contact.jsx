@@ -1,5 +1,5 @@
 import React from "react";
-import Facebook from './facebook.svg'
+import Mail from './mail.svg'
 import Instagram from './instagram.svg'
 import Linkedin from './linkedin.svg'
 import Twitter from './twitter.svg'
@@ -7,7 +7,7 @@ import Youtube from './youtube.svg'
 
 function Contact() {
   return (
-   <div className="bg-stone-900">
+   <div className="bg-bgc">
     <div className="flex w-full min-h-screen justify-center items-center">
     <div className="flex flex-col space-y-6 bg-stone-800 w-full max-w-6xl p-8 rounded-xl shadow-lg md:flex-row md:space-x-6 md:space-y-0 justify-between sm:p-12">
       <div className="flex flex-col justify-between mx-10 ">
@@ -17,7 +17,7 @@ function Contact() {
           </div>
 
           <div className="flex space-x-4 my-10">
-            <a href="#"><img src={Facebook} width="25" alt="" /> </a>
+            <a href="#"><img src={Mail} width="25" alt="" /> </a>
             <a href="#"><img src={Instagram} width="25" alt="" /></a>
             <a href="#"><img src={Twitter} width="25" alt="" /></a>
             <a href="#"><img src={Youtube} width="25" alt="" /></a>
