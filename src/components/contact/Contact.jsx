@@ -7,7 +7,7 @@ import Youtube from './youtube.svg'
 
 function Contact() {
   return (
-   <div className="bg-bgc">
+   <div className="bg-[#1D1D1D]">
     <div className="flex w-full min-h-screen justify-center items-center">
     <div className="flex flex-col space-y-6 bg-stone-800 w-full max-w-6xl p-8 rounded-xl shadow-lg md:flex-row md:space-x-6 md:space-y-0 justify-between sm:p-12">
       <div className="flex flex-col justify-between mx-10 ">
