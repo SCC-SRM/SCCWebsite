@@ -22,18 +22,23 @@ function Contact() {
             <a href="#"><img src={Twitter} width="25" alt="" /></a>
             <a href="#"><img src={Youtube} width="25" alt="" /></a>
             <a href="#"><img src={Linkedin} width="25" alt="" /></a>
-            
-
           </div>
-      </div>
+        </div>
 
-
-      <div>
+        <div>
           <div className="bg-white rounded-xl shadow-lg p-8 w-full md:w-80">
             <form action="" className="flex flex-col space-y-4 w-full">
               <div><label htmlFor="" className="text-sm">Name</label><input type="text" placeholder="Name" className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
-
-
+              <div>
+                <label htmlFor="" className="text-sm">
+                  Your Email
+                </label>
+                <input
+                  type="email"
+                  placeholder="Your Email "
+                  className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"
+                />
+              </div>
             
               <div><label htmlFor="" className="text-sm">Email</label><input type="email" placeholder="Email " className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
               
@@ -42,19 +47,17 @@ function Contact() {
               <button className="inline-block self-end bg-stone-900
                text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">Send Message</button>
 
+              <button
+                className="inline-block self-end bg-black
+               text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">
+                Send Message
+              </button>
             </form>
-            </div>
           </div>
+        </div>
       </div>
     </div>
-      
-   </div>
-
-
-
-   
   );
 }
 
 export default Contact;
-  
