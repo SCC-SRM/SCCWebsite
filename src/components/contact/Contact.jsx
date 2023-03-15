@@ -1,5 +1,5 @@
 import React from "react";
-import Facebook from './facebook.svg'
+import Mail from './mail.svg'
 import Instagram from './instagram.svg'
 import Linkedin from './linkedin.svg'
 import Twitter from './twitter.svg'
@@ -7,7 +7,7 @@ import Youtube from './youtube.svg'
 
 function Contact() {
   return (
-   <div className="bg-stone-900">
+   <div className="bg-[#1D1D1D]">
     <div className="flex w-full min-h-screen justify-center items-center">
     <div className="flex flex-col space-y-6 bg-stone-800 w-full max-w-6xl p-8 rounded-xl shadow-lg md:flex-row md:space-x-6 md:space-y-0 justify-between sm:p-12">
       <div className="flex flex-col justify-between mx-10 ">
@@ -17,48 +17,44 @@ function Contact() {
           </div>
 
           <div className="flex space-x-4 my-10">
-            <a href="#"><img src={Facebook} width="25" alt="" /> </a>
+            <a href="#"><img src={Mail} width="25" alt="" /> </a>
             <a href="#"><img src={Instagram} width="25" alt="" /></a>
             <a href="#"><img src={Twitter} width="25" alt="" /></a>
             <a href="#"><img src={Youtube} width="25" alt="" /></a>
             <a href="#"><img src={Linkedin} width="25" alt="" /></a>
-          </div>
-        </div>
+            
 
-        <div>
+          </div>
+      </div>
+
+
+      <div>
           <div className="bg-white rounded-xl shadow-lg p-8 w-full md:w-80">
             <form action="" className="flex flex-col space-y-4 w-full">
               <div><label htmlFor="" className="text-sm">Name</label><input type="text" placeholder="Name" className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
-              <div>
-                <label htmlFor="" className="text-sm">
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  placeholder="Your Email "
-                  className="ring-1 ring-black w-full rounded-md px-4 py-2 outline-none mt-2"
-                />
-              </div>
+
+
             
               <div><label htmlFor="" className="text-sm">Email</label><input type="email" placeholder="Email " className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
               
               <div><label htmlFor="" className="text-sm">Message</label><textarea type="text" placeholder="message" rows="4" className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
 
-              <button className="inline-block self-end bg-stone-900
+              <button className="inline-block self-end bg-[#1D1D1D]
                text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">Send Message</button>
 
-              <button
-                className="inline-block self-end bg-black
-               text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">
-                Send Message
-              </button>
             </form>
+            </div>
           </div>
-        </div>
       </div>
     </div>
-    </div>
+      
+   </div>
+
+
+
+   
   );
 }
 
 export default Contact;
+  
