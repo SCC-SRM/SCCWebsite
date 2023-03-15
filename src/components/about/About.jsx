@@ -33,11 +33,11 @@ function About() {
           X no. of people to y no.(the present strength) of people
         </p>
         {/* <img src="public/about3.jpeg"></img> */}
-        <figure class="relative max-w-7xl transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+        <figure class="relative max-w-7xl ">
           <img
-            class="rounded-lg max-w-2xl ml-2"
+            class="rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src="/about3.jpeg"
-            alt="image description"
+            alt="about image"
           ></img>
         </figure>
       </div>
@@ -63,11 +63,11 @@ function About() {
             fields they would like to have a career in The club has grown from a
             group of X no. of people to y no.(the present strength) of people
           </p>
-          <figure class="relative max-w-7xl transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+          <figure class="relative max-w-7xl cursor-pointer filter ">
           <img
-            class="rounded-lg max-w-2xl ml-64 mt-5"
+            class="rounded-lg max-w-2xl ml-64 mt-5  transition-all duration-300 grayscale hover:grayscale-0"
             src="/about2.jpeg"
-            alt="image description"
+            alt="history image"
           ></img>
         </figure>
         </div>
