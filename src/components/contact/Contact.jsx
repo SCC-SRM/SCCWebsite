@@ -39,7 +39,7 @@ function Contact() {
               
               <div><label htmlFor="" className="text-sm">Message</label><textarea type="text" placeholder="message" rows="4" className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"/></div>
 
-              <button className="inline-block self-end bg-stone-900
+              <button className="inline-block self-end bg-[#1D1D1D]
                text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">Send Message</button>
 
             </form>
