@@ -1,23 +1,20 @@
-import About from "./components/about/About";
-import Home from "./components/home/Home";
-import Contact from "./components/contact/Contact";
-import Projects from "./components/projects/Projects";
-import Events from "./components/events/Events";
+import React, { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AboutPage from "./components/about/AboutPage";
+import ProjectsPage from "./components/projects/page/ProjectsPage";
 import Footer from "./components/footer/Footer";
-
-import Domains from "./components/domains/Domains";
-
-
 function App() {
   return (
     <div className="h-full">
-      <Home />
-      <Events/>
-      <About />
-      <Projects />
-      <Domains/>
-      <Contact />
-      <Footer />
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<AboutPage />} />
+          <Route path="/projectspage" element={<ProjectsPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+    <Footer />
     </div>
   );
 }

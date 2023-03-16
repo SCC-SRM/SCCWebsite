@@ -52,3 +52,17 @@ p {
 #root {
   isolation: isolate;
 }
+
+/* Projects */
+.projects-scrollbar::-webkit-scrollbar {
+  height: 5px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+.projects-scrollbar::-webkit-scrollbar-thumb {
+  background: #ef4444;
+  -webkit-border-radius: 1ex;
+}
+.projects-scrollbar::-webkit-scrollbar-corner {
+  background: #fff3;
+}
