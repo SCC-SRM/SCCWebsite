@@ -1,6 +1,8 @@
 function About() {
   return (
-    <div className="min-h-full bg-[#1d1d1d] text-white px-20 py-16 space-y-20">
+    <div
+      id="about"
+      className="min-h-screen bg-primaryBackground text-white px-20 py-16 space-y-20">
       <div>
         <span className="font-bold text-6xl text-underline-offset: 8px underline decoration-[#ef4444] ">
           About
@@ -33,21 +35,20 @@ function About() {
           X no. of people to y no.(the present strength) of people
         </p>
         {/* <img src="public/about3.jpeg"></img> */}
-        <figure class="relative max-w-7xl ">
+        <figure className="relative max-w-7xl ">
           <img
-            class="rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+            className="rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src="/about3.jpeg"
-            alt="about image"
-          ></img>
+            alt="about image"></img>
         </figure>
       </div>
-      <div className="min-h-full bg-[#1d1d1d] text-white px-20 py-16 space-y-20">
+      <div className="min-h-full bg-primaryBackground text-white px-20 py-16 space-y-20">
         <div>
           <span className="font-bold text-6xl text-underline-offset: 8px underline decoration-[#d97706] ">
             HISTORY
           </span>
         </div>
-        <div >
+        <div>
           <p className="text-lg">
             The club was created with the goal of providing students with a
             community where they can learn and develop their skills in
@@ -63,13 +64,12 @@ function About() {
             fields they would like to have a career in The club has grown from a
             group of X no. of people to y no.(the present strength) of people
           </p>
-          <figure class="relative max-w-7xl cursor-pointer filter ">
-          <img
-            class="rounded-lg max-w-2xl ml-64 mt-5  transition-all duration-300 grayscale hover:grayscale-0"
-            src="/about2.jpeg"
-            alt="history image"
-          ></img>
-        </figure>
+          <figure className="relative max-w-7xl cursor-pointer filter ">
+            <img
+              className="rounded-lg max-w-2xl ml-64 mt-5  transition-all duration-300 grayscale hover:grayscale-0"
+              src="/about2.jpeg"
+              alt="history image"></img>
+          </figure>
         </div>
       </div>
     </div>

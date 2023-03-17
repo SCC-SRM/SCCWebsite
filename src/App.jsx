@@ -1,20 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AboutPage from "./components/about/AboutPage";
 import ProjectsPage from "./components/projects/page/ProjectsPage";
 import Footer from "./components/footer/Footer";
+import LandingPage from "./LandingPage";
+
 function App() {
   return (
     <div className="h-full">
-    <BrowserRouter>
-      <div>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<AboutPage />} />
-          <Route path="/projectspage" element={<ProjectsPage />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
-      </div>
-    </BrowserRouter>
-    <Footer />
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }
