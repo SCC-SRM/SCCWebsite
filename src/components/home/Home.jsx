@@ -1,10 +1,12 @@
+import {NavLink} from "react-router-dom"
+
 function Home() {
   return (
     <div className="min-h-full flex flex-col px-20 py-8 bg-[#1d1d1d] text-white">
       <nav className="flex justify-between font-semibold mb-6 h-full tracking-wide">
         <div className="inline-flex gap-10 items-center">
-          <button className="drop-shadow-[0_25px_25px_#0003]">ABOUT</button>
-          <button className="drop-shadow-[0_25px_25px_#0003]">PROJECTS</button>
+          <NavLink to="/" className="nav-link drop-shadow-[0_25px_25px_#0003]" >ABOUT</NavLink>
+          <NavLink to="/projectspage" className="nav-link drop-shadow-[0_25px_25px_#0003]" >PROJECTS</NavLink>
         </div>
         <div className="inline-flex gap-10 items-center">
           <button className="drop-shadow-[0_25px_25px_#0003]">EVENTS</button>
