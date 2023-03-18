@@ -81,10 +81,11 @@ const Domains = () => {
             events, hackathons and workshops to keep the club engaged with the
             students
           </p>
+
         </div>
       </div>
     </div>
   );
 };
-
 export default Domains;
+
