@@ -8,14 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        custommonth:'#F18C00',
-        custom1:'#ffffff',
-        orangeHeader:"#F18C00",
-      }
+        custommonth: "#F18C00",
+        orangeHeader: "#F18C00",
+        primaryBackground: "#1D1D1D",
+      },
     },
   },
-  plugins: [
-   
-  ],
+  plugins: [],
 };
-

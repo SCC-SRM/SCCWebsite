@@ -14,7 +14,6 @@ export default function ProjectPageCard(props) {
             <Button title="Demo" />
           </a>
           <a href={props.repolink}>
-            {" "}
             <Button title="Repository" />
           </a>
         </div>
