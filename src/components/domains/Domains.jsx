@@ -1,10 +1,13 @@
 import { ReactComponent as TechnicalIcon } from "../../assets/domains_asset/technical.svg";
 import { ReactComponent as CreativesIcon } from "../../assets/domains_asset/creatives.svg";
 import { ReactComponent as CorporatesIcon } from "../../assets/domains_asset/corporate.svg";
+import { useLayoutEffect } from "react";
 
 const Domains = () => {
   return (
-    <div className="text-white min-h-screen overflow-x-hidden bg-primaryBackground px-20">
+    <div className="min-h-screen flex flex-col px-20 pt-32 bg-primaryBackground text-white">
+    
+    <div className="text-white min-h-screen overflow-x-hidden bg-primaryBackground">
       <div className="sm:pb-14 ">
         <div className="sm:pt-[200px]  flex md:flex-row flex-col  items-center justify-center space-x-10 pr-[80px]  sm:pr-[280px] ">
           <h1 className="  uppercase relative md:rotate-90 rotate-0    tracking-widest sm:text-[100px] text-[80px] font-semibold">
@@ -85,7 +88,10 @@ const Domains = () => {
         </div>
       </div>
     </div>
-  );
+
+    </div>
+      );
 };
+
 export default Domains;
 
