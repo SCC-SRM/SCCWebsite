@@ -1,16 +1,17 @@
-import Nav from "../nav/Nav";
+
 
 function Home() {
   return (
-    <div className="min-h-screen flex flex-col px-20 py-8 bg-primaryBackground text-white">
-      <Nav />
-      <section className="text-9xl flex-1 font-bold flex justify-center flex-col tracking-wide mt-16">
+    <div className="min-h-screen flex flex-col">
+      <section className="text-9xl flex-1 font-bold flex items-center tracking-wide">
         <p className="drop-shadow-[0_25px_25px_#0003]">
           Swift <br /> Coding <br /> Club
         </p>
-        <div className="text-base w-full flex flex-col items-center drop-shadow-[0_25px_25px_#0003] gap-4 mt-24">
+        {/* <div className="text-sm w-full flex flex-col items-center drop-shadow-[0_25px_25px_#0003] gap-4">
           <div className="flex flex-col items-center">
-            <p className="uppercase">Innovate, Collaborate. Learn.</p>
+            {"EXPLORE NOW".split("").map((text, index) => (
+              <span key={index} className="tracking-wide">{text == " " ? " ": text}</span>
+            ))}
           </div>
           <button>
             <svg
@@ -19,7 +20,7 @@ function Home() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6">
+              className="w-6 h-6 -rotate-90">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -27,7 +28,7 @@ function Home() {
               />
             </svg>
           </button>
-        </div>
+        </div> */}
       </section>
     </div>
   );

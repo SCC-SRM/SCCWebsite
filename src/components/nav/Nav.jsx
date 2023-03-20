@@ -4,7 +4,7 @@ import { Link } from "../utils/CustomLink";
 function Nav() {
   const location = useLocation();
   return (
-    <nav className="flex justify-between font-semibold mb-6 h-full tracking-wide">
+    <nav className="flex justify-between font-semibold sticky top-0 tracking-wide py-8 bg-primaryBackground z-50 saturate-150 bg-opacity-60 backdrop-blur-lg px-20">
       <div className="inline-flex gap-10 items-center">
         <Link
           href={location.pathname === "/" ? "#about" : "/"}
@@ -18,7 +18,8 @@ function Nav() {
         </NavLink>
       </div>
       <div className="inline-flex gap-10 items-center">
-        <button className="drop-shadow-[0_25px_25px_#0003]">EVENTS</button>
+        <NavLink to="/domains" className="drop-shadow-[0_25px_25px_#0003]">DOMAINS</NavLink>
+        <NavLink to="/events" className="drop-shadow-[0_25px_25px_#0003]">EVENTS</NavLink>
         <button>
           <svg
             height="16"

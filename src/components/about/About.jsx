@@ -2,7 +2,7 @@ function About() {
   return (
     <div
       id="about"
-      className="min-h-screen bg-primaryBackground text-white px-20 py-16 space-y-20">
+      className="min-h-screen bg-primaryBackground text-white pt-32 space-y-20">
       <div>
         <span className="font-bold text-6xl text-underline-offset: 8px underline decoration-[#ef4444] ">
           About

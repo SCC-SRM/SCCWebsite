@@ -2,7 +2,7 @@ import React from "react";
 
 function Events() {
   return (
-    <div className="min-h-screen bg-primaryBackground">
+    <div className="min-h-screen">
       <div className="flex p-0">
         <span className="font-bold text-4xl text-underline-offset: 8px underline decoration-[#F18C00] text-white ml-auto ">
           Upcoming Events
