@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div className="bg-primaryBackground">
       <div className="flex w-full min-h-screen justify-center items-center">
-        <div className="flex flex-col space-y-6 bg-stone-800 w-full max-w-6xl p-8 rounded-xl shadow-lg md:flex-row md:space-x-6 md:space-y-0 justify-between sm:p-12">
+        <div className="flex flex-col space-y-6 w-full max-w-6xl p-8 rounded-xl shadow-[0_0_40px_0] shadow-[#0004] md:flex-row md:space-x-6 md:space-y-0 justify-between sm:p-12">
           <div className="flex flex-col justify-between mx-10 ">
             <div className="text-white">
               <h1 className="font-bold text-3xl tracking-wide">Contact Us</h1>

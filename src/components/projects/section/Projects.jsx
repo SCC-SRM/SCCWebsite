@@ -3,7 +3,7 @@ import ProjectsData from "./ProjectsData";
 
 function Projects() {
   return (
-    <div className="min-h-full bg-primaryBackground text-white px-20 py-16">
+    <div className="min-h-full bg-primaryBackground text-white py-16">
       <div className="w-1/4">
         <span className="font-bold text-6xl">PROJECTS</span>
         <div className="bg-[#ef4444] h-2 w-24 ml-auto mt-2"></div>

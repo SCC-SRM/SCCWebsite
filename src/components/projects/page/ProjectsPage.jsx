@@ -5,9 +5,7 @@ import ProjectsPageData from "./ProjectsPageData";
 
 function ProjectsPage() {
   return (
-    <div className="flex flex-col px-20 py-8 bg-primaryBackground text-white">
-      <Nav />
-
+    <div className="flex flex-col py-8 bg-primaryBackground text-white px-20">
       <div className=" bg-primaryBackground">
         <div className="py-16 pr-20">
           <div className="flex mb-20">
