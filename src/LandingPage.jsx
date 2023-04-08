@@ -10,7 +10,6 @@ function LandingPage() {
   return (
     <div className="px-20">
       <Home />
-      <Events />
       <About />
       <Projects />
       <DomainsDescription />

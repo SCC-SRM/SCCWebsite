@@ -1,0 +1,17 @@
+body {
+    background-color: #1D1D1F;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
+  .header {
+    padding: 1rem;
+  }
+
+
+  
+  .grid {
+    justify-content: center;
+  }
+  
