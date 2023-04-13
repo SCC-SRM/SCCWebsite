@@ -41,7 +41,7 @@ function Contact() {
             <div className="bg-white rounded-xl shadow-lg p-8 w-full md:w-80">
               <form action="" className="flex flex-col space-y-4 w-full">
                 <div>
-                  <label htmlFor="" className="text-sm">
+                  <label htmlFor="name" className="text-sm">
                     Name
                   </label>
                   <input
@@ -52,7 +52,7 @@ function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="" className="text-sm">
+                  <label htmlFor="email" className="text-sm">
                     Email
                   </label>
                   <input
@@ -63,14 +63,14 @@ function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="" className="text-sm">
+                  <label htmlFor="message" className="text-sm">
                     Message
                   </label>
                   <textarea
                     type="text"
                     placeholder="message"
                     rows="4"
-                    className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2"
+                    className="ring-1 ring-stone-900 w-full rounded-md px-4 py-2 outline-none mt-2 resize-none"
                   />
                 </div>
 
