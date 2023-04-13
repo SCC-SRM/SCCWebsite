@@ -20,7 +20,7 @@ function Nav() {
       <div className="inline-flex gap-10 items-center">
         <NavLink to="/domains" className="drop-shadow-[0_25px_25px_#0003]">DOMAINS</NavLink>
         <NavLink to="/events" className="drop-shadow-[0_25px_25px_#0003]">EVENTS</NavLink>
-        <button>
+        {/* <button>
           <svg
             height="16"
             viewBox="0 0 28 20"
@@ -35,7 +35,7 @@ function Nav() {
               strokeLinejoin="round"
             />
           </svg>
-        </button>
+        </button> */}
       </div>
     </nav>
   );
