@@ -10,9 +10,9 @@ function ProjectsPage() {
         <div className="py-16 pr-20">
           <div className="flex flex-col">
             <div className="mb-5">
-              <div className="heading flex items-center space-x-2 animate-pulse">
+              <div className="heading flex items-center space-x-2">
                 <h1 className="font-bold text-7xl">PROJECTS</h1>
-                <img className="h-14" src="/swift.svg" alt="" />
+                <img className="h-14 animate-pulse" src="/swift.svg" alt="" />
               </div>
               <div className="bg-[#ef4444] h-2 w-[450px]"></div>
             </div>
