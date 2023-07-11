@@ -2,7 +2,7 @@ import React from "react";
 
 export default function EventPageCard({ Month, Date, Event }) {
   return (
-    <div> 
+    <div>
       <div className="relative p-4 top-5 min-h-screen">
         <span
           className="font-helvetica font-bold  text-custommonth absolute"

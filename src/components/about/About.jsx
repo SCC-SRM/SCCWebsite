@@ -2,7 +2,8 @@ function About() {
   return (
     <div
       id="about"
-      className="min-h-screen bg-primaryBackground text-white pt-32 space-y-20">
+      className="min-h-screen bg-primaryBackground text-white pt-32 space-y-20"
+    >
       <div>
         <span className="font-bold text-6xl text-underline-offset: 8px underline decoration-[#ef4444] ">
           About
@@ -39,7 +40,8 @@ function About() {
           <img
             className="rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src="/about3.jpeg"
-            alt="about image"></img>
+            alt="about image"
+          ></img>
         </figure>
       </div>
       <div className="min-h-full bg-primaryBackground text-white px-20 py-16 space-y-20">
@@ -68,7 +70,8 @@ function About() {
             <img
               className="rounded-lg max-w-2xl ml-64 mt-5  transition-all duration-300 grayscale hover:grayscale-0"
               src="/about2.jpeg"
-              alt="history image"></img>
+              alt="history image"
+            ></img>
           </figure>
         </div>
       </div>

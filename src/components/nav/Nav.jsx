@@ -3,41 +3,50 @@ import { Link } from "../utils/CustomLink";
 
 function Nav() {
   const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
-    <nav className="flex justify-between font-semibold sticky top-0 tracking-wide py-8 bg-primaryBackground z-50 saturate-150 bg-opacity-60 backdrop-blur-lg px-20">
-      <div className="inline-flex gap-10 items-center">
+    <header className="body-font">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center font-medium uppercase md:gap-10 justify-center">
         <Link
-          href={location.pathname === "/" ? "#about" : "/"}
-          className="nav-link drop-shadow-[0_25px_25px_#0003]">
-          {location.pathname === "/" ? "ABOUT" : "HOME"}
+          href="/"
+          className="flex title-font font-medium items-center mb-4 md:mb-0"
+        >
+          <img
+            src="/swift.svg"
+            className="h-10 w-10"
+            alt="Swift Coding Club logo"
+          />
+          <span className="ml-3 text-xl">Swift Coding Club</span>
         </Link>
-        <NavLink
-          to="/projects"
-          className="nav-link drop-shadow-[0_25px_25px_#0003]">
-          PROJECTS
-        </NavLink>
+        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <Link
+            href={isHomePage ? "#about" : "/"}
+            className={`md:mr-20 mr-5 hover:text-[#DD524C] nav-link`}
+          >
+            {isHomePage ? "ABOUT" : "HOME"}
+          </Link>
+          <NavLink
+            to="/projects"
+            className="md:mr-20 mr-5 hover:text-[#DD524C] nav-link"
+          >
+            Projects
+          </NavLink>
+          <NavLink
+            to="/domains"
+            className="md:mr-20 mr-5 hover:text-[#DD524C] nav-link"
+          >
+            Domains
+          </NavLink>
+          <NavLink
+            to="/events"
+            className="md:mr-20 mr-5 hover:text-[#DD524C] nav-link"
+          >
+            Events
+          </NavLink>
+        </nav>
       </div>
-      <div className="inline-flex gap-10 items-center">
-        <NavLink to="/domains" className="drop-shadow-[0_25px_25px_#0003]">DOMAINS</NavLink>
-        <NavLink to="/events" className="drop-shadow-[0_25px_25px_#0003]">EVENTS</NavLink>
-        {/* <button>
-          <svg
-            height="16"
-            viewBox="0 0 28 20"
-            fill="none"
-            className="drop-shadow-[0_25px_25px_#0003]"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M2 2H26M11.0909 10H26M2 18H26"
-              stroke="white"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button> */}
-      </div>
-    </nav>
+    </header>
   );
 }
 

@@ -8,7 +8,7 @@ import DomainsDescription from "./components/domains/DomainsDescription";
 
 function LandingPage() {
   return (
-    <div className="px-20">
+    <div className="px-4 md:px-20">
       <Home />
       <About />
       <Projects />

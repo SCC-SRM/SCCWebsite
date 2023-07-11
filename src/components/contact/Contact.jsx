@@ -76,7 +76,8 @@ function Contact() {
 
                 <button
                   className="inline-block self-end bg-primaryBackground
-               text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm">
+               text-white rounded-lg font-bold  py-4 px-6 uppercase text-sm"
+                >
                   Send Message
                 </button>
               </form>
