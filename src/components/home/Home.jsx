@@ -1,6 +1,11 @@
 function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <img
+        src="/swift.svg"
+        alt="Your SVG"
+        class="h-60 w-30 object-contain float-right text-center"
+      />
       <section className="text-9xl flex-1 font-bold flex items-center tracking-wide">
         <p className="drop-shadow-[0_25px_25px_#0003]">
           Swift <br /> Coding <br /> Club
