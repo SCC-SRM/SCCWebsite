@@ -6,7 +6,7 @@ function Home() {
         alt="Your SVG"
         class="h-60 w-30 object-contain float-right text-center"
       />
-      <section className="text-8xl flex-1 font-bold flex items-center tracking-wide">
+      <section className="text-8xl flex-1 font-bold lg:flex items-center tracking-wide">
         <p className="drop-shadow-[0_25px_25px_#0003] float-center mx-auto">
           Swift Coding Club
         </p>
