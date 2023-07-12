@@ -7,8 +7,8 @@ function Home() {
         class="h-60 w-30 object-contain float-right text-center"
       />
       <section className="text-8xl flex-1 font-bold flex items-center tracking-wide">
-        <p className="drop-shadow-[0_25px_25px_#0003]">
-          Swift <br /> Coding <br /> Club
+        <p className="drop-shadow-[0_25px_25px_#0003] float-center mx-auto">
+          Swift Coding Club
         </p>
         {/* <div className="text-sm w-full flex flex-col items-center drop-shadow-[0_25px_25px_#0003] gap-4">
           <div className="flex flex-col items-center">
