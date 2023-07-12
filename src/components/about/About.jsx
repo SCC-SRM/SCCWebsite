@@ -6,30 +6,33 @@ function About() {
           About
         </span>
       </div>
-      <div className="flex flex-col lg:flex-row">
-        <figure className="relative max-w-7xl ">
+      <div className="flex flex-col lg:flex-row-reverse">
+        <div className="lg:w-1/2">
           <img
-            className="h-full w-full overflow-hidden rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+            className="border-4 border-yellow-500 h-full w-full overflow-hidden rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src="/about3.jpeg"
             alt="about image"
-          ></img>
-        </figure>
-        <div className="flex flex-col justify-center">
-          <p className="text-lg mb-4 lg:ml-4">
-            The Swift Coding Club was founded in 2022 with the goal of making
-            coding accessible and fun for everyone. We believe that everyone
-            should have the opportunity to learn how to code, regardless of
-            their background or experience level. Our members come from all
-            walks of life and range from students to professionals, but what
-            they all share is a love of coding and a desire to learn more. Our
-            team of experienced mentors and instructors provide support,
-            guidance, and feedback to help our members reach their goals with an
-            environment to experiment and create great tools using technologies
-            relevant in today’s world. We also organize regular events and
-            workshops, where members can network, collaborate, and share their
-            work. Whether you're looking to build your portfolio, make new
-            friends, or just have fun, the Swift Coding Club is the perfect
-            place for you.
+          />
+        </div>
+
+        <div className="flex flex-col justify-center lg:w-1/2 lg:ml-4">
+          <p className="text-lg mb-4 mt-12 lg:ml-4">
+            The Swift Coding Club was founded in 2022 to make coding accessible
+            and fun for all. We believe in providing equal opportunities for
+            everyone to learn, regardless of background or experience. Our
+            diverse membership includes students and professionals who share a
+            love of coding and a desire to learn. Experienced mentors and
+            instructors support our members in experimenting and creating tools
+            using relevant technologies. We organize events and workshops for
+            networking, collaboration, and sharing work. Whether you're building
+            your portfolio, making friends, or having fun, the Swift Coding Club
+            is perfect for you. It provides a community for students to learn
+            and develop programming and app development skills. The club
+            welcomes all skill levels and was inaugurated at SRM on **XYZ
+            date**. We continuously strive to create new growth opportunities
+            for our members, helping them excel in their chosen fields. The club
+            has experienced significant growth, expanding from X to y members
+            (present strength).
           </p>
         </div>
       </div>
@@ -40,7 +43,7 @@ function About() {
           </span>
         </div>
         <div className="flex flex-col lg:flex-row">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center lg:w-1/2">
             <p className="text-lg mb-4">
               The club was created with the goal of providing students with a
               community where they can learn and develop their skills in
@@ -58,12 +61,12 @@ function About() {
               strength) of people.
             </p>
           </div>
-          <figure className="relative max-w-7xl cursor-pointer filter">
+          <figure className="relative max-w-7xl cursor-pointer filter lg:w-1/2">
             <img
-              className="rounded-lg max-w-2xl ml-64 mt-5 transition-all duration-300 grayscale hover:grayscale-0"
+              className="rounded-lg max-w-full ml-64 mt-5 transition-all duration-300 grayscale hover:grayscale-0"
               src="/about2.jpeg"
               alt="history image"
-            ></img>
+            />
           </figure>
         </div>
       </div>
