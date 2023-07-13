@@ -1,6 +1,18 @@
 import { Instagram, Linkedin, Twitter } from "lucide-react";
 
 function Footer() {
+  const handleCopy = (e) => {
+    e.stopPropagation();
+    const element = e.currentTarget;
+    const svg = e.currentTarget.firstElementChild;
+    const textToCopy = e.currentTarget.dataset.text;
+    navigator.clipboard.writeText(textToCopy);
+    e.currentTarget.textContent = "copied!";
+    setTimeout(() => {
+      element.innerHTML = `${svg.outerHTML}${textToCopy}`;
+    }, 3000);
+  };
+
   return (
     <div className="py-6 sm:py-16 pb-10 text-white px-4">
       <div className="container mx-auto">
@@ -27,7 +39,7 @@ function Footer() {
                 className="inline-flex items-center font-medium hover:text-gray-400 text-lg text-white transition-colors outline-none focus-within:text-gray-400">
                 <img
                   src={"/swift.svg"}
-                  alt="dbuglabs"
+                  alt="sccsrm"
                   height={30}
                   width={30}
                   className="rounded-lg"
@@ -64,18 +76,9 @@ function Footer() {
             </p>
             <div className="text-sm text-gray-400">
               <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  const textToCopy = e.currentTarget.dataset.text;
-                  navigator.clipboard.writeText(textToCopy);
-                  e.currentTarget.innerText = "Email copied!";
-                  const element = e.currentTarget;
-                  setTimeout(() => {
-                    element.innerText = textToCopy;
-                  }, 3000);
-                }}
+                onClick={handleCopy}
                 className="hover:text-white outline-none focus-within:text-white"
-                data-text="hello@dbuglabs.com">
+                data-text="info@sccsrm.com">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -92,16 +95,7 @@ function Footer() {
               </button>
               <span className="mx-1.5">·</span>
               <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  const textToCopy = e.currentTarget.dataset.text;
-                  navigator.clipboard.writeText(textToCopy);
-                  e.currentTarget.innerText = "Number copied!";
-                  const element = e.currentTarget;
-                  setTimeout(() => {
-                    element.innerText = textToCopy;
-                  }, 3000);
-                }}
+                onClick={handleCopy}
                 className="hover:text-white outline-none focus-within:text-white"
                 data-text="+919929294949">
                 <svg
