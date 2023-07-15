@@ -58,7 +58,7 @@ function DomainsDescription() {
       </div>
 
       <div className="domainsDescriptionContent w-full relative flex flex-col">
-        <div className="technicalDesc section text-lg domainDescSection w-fit m-16 p-[5%] shadow-2xl bg-[#1f1e1e] ">
+        <div className="technicalDesc section text-lg domainDescSection w-fit m-10 p-[5%] shadow-2xl bg-[#1f1e1e] rounded-3xl">
           <div className="font-semibold text-2xl mb-10 domainSubHeading underline decoration-[#d97706]">
             Technical
           </div>
@@ -78,7 +78,7 @@ function DomainsDescription() {
           cutting-edge technical skills and staying ahead of the curve. Get
           ready to level up your tech game!
         </div>
-        <div className="creativesDesc section text-lg domainDescSection w-fit m-16 p-[5%] shadow-2xl bg-[#1f1e1e]">
+        <div className="creativesDesc section text-lg domainDescSection w-fit m-10 p-[5%] shadow-2xl bg-[#1f1e1e] rounded-3xl">
           <div className="font-semibold text-2xl mb-10 domainSubHeading underline decoration-[#d97706]">
             Creatives
           </div>
@@ -96,7 +96,7 @@ function DomainsDescription() {
           the next level. Get ready to unleash your inner creativity and let
           your talents shine!
         </div>
-        <div className="corporateDesc section text-lg domainDescSection w-fit m-16 p-[5%] shadow-2xl bg-[#1f1e1e]">
+        <div className="corporateDesc section text-lg domainDescSection w-fit m-10 p-[5%] shadow-2xl bg-[#1f1e1e] rounded-3xl">
           <div className="font-semibold text-2xl mb-10 domainSubHeading underline decoration-[#d97706]">
             Corporate
           </div>
