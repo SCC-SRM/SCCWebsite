@@ -1,13 +1,15 @@
+import Snowfall from "react-snowfall";
 function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <Snowfall snowflakeCount={150} />
       <img
         src="/swift.svg"
         alt="Your SVG"
-        class="h-60 w-30 object-contain float-right text-center"
+        class="lg:mt-24 lg:ml-8 h-60 w-30 object-contain float-right text-center"
       />
-      <section className="text-8xl flex-1 font-bold lg:flex items-center tracking-wide">
-        <p className="drop-shadow-[0_25px_25px_#0003] float-center mt-8 mx-auto">
+      <section className="text-8xl flex-1 font-bold lg:flex center lg:mt-4 tracking-wide">
+        <p className="drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
           Swift Coding Club
         </p>
         {/* <div className="text-sm w-full flex flex-col items-center drop-shadow-[0_25px_25px_#0003] gap-4">
