@@ -2,7 +2,7 @@ import Button from "../../../assets/button/Button";
 
 export default function ProjectPageCard(props) {
   return (
-    <div className="flex gap-2 py-16 pb-28">
+    <div className="flex gap-2 py-16 pb-28  ">
       <div className="rounded-lg px-16 w-1/2">
         <img src={props.image} className="rounded-lg"></img>
       </div>
