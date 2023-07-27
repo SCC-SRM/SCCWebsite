@@ -13,7 +13,7 @@ export default function MobileProjectPageCard(props) {
     : props.description.slice(0, 200) + " ...";
   return (
     <div className="flex flex-col items-center md:flex-row md:gap-2 w-[200px] md:w-full md:py-16 md:pb-28">
-      <div className="rounded-lg md:px-16  m-2 md:w-1/2">
+      <div className="rounded-lg md:px-16 w-[230px] m-2 md:w-1/2">
         <img src={props.image} className="rounded-lg object-fill"></img>
       </div>
       <div className="content w-[40vh] md:w-1/2 px-16">
