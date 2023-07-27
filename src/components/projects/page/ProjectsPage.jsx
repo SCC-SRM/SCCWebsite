@@ -54,7 +54,7 @@ function ProjectsPage() {
         </div>
 
         {screenWidth < 1000 ? (
-          <div className="bg-red-200 flex flex-col justify-center items-center">
+          <div className="flex flex-col space-y-10 justify-center items-center">
             {ProjectsPageData.map((element) => (
               <MobileProjectPageCard
                 key={element.key}
