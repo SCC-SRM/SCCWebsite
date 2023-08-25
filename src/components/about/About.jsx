@@ -1,49 +1,52 @@
 function About() {
   return (
-    <div className="min-h-screen bg-primaryBackground text-white pt-32 space-y-20">
+    <div className="min-h-screen font-body font-light bg-primaryBackground text-white pt-32 space-y-20">
       <div>
-        <span className="font-bold text-6xl underline decoration-[#ef4444]">
-          About
-        </span>
+        <div class="relative">
+          <span class="font-bold text-6xl">ABOUT</span>
+          <span class="font-bold outline-heading text-6xl absolute left-2 ">
+            ABOUT
+          </span>
+          <div className="bg-[#ef4444] h-2 w-24 mr-auto ml-40 mt-2"></div>
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row-reverse">
         <div className="lg:w-1/2">
           <img
-            className="border-4 border-yellow-500 h-full w-full overflow-hidden rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+            className="h-full w-full overflow-hidden rounded-sm max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
             src="/about3.jpeg"
             alt="about image"
           />
         </div>
 
-        <div className="flex flex-col justify-center lg:w-1/2 lg:ml-4">
-          <p className="text-lg mb-4 mt-12 lg:ml-4">
-            The Swift Coding Club was founded in 2022 to make coding accessible
-            and fun for all. We believe in providing equal opportunities for
-            everyone to learn, regardless of background or experience. Our
-            diverse membership includes students and professionals who share a
-            love of coding and a desire to learn. Experienced mentors and
-            instructors support our members in experimenting and creating tools
-            using relevant technologies. We organize events and workshops for
-            networking, collaboration, and sharing work. Whether you're building
-            your portfolio, making friends, or having fun, the Swift Coding Club
-            is perfect for you. It provides a community for students to learn
-            and develop programming and app development skills. The club
-            welcomes all skill levels and was inaugurated at SRM on **XYZ
-            date**. We continuously strive to create new growth opportunities
-            for our members, helping them excel in their chosen fields. The club
-            has experienced significant growth, expanding from X to y members
-            (present strength).
+        <div className="flex flex-col justify-center text-justify lg:w-1/2 lg:ml-4">
+          <p className="text-lg mb-4 mt-12 mr-16 lg:ml-4">
+            The Swift Coding Club, which was established in 2022, intends to
+            democratise coding by promoting inclusion and fun for all. Our broad
+            group of members, which includes professionals and students, are all
+            passionate about learning and coding. Experienced mentors direct
+            tool development and experimentation with pertinent technology. We
+            encourage cooperation, idea exchange, and networking through
+            seminars and events. The Swift Coding Club offers something for
+            everyone, whether it's building resumes, creating relationships, or
+            just having fun. With support for all skill levels, it acts as a hub
+            for students to build their programming and app development
+            abilities. Our club, which was launched at SRM on XYZ date, has
+            thrived, going from X to Y members, and it has opened up countless
+            prospects for progress.
           </p>
         </div>
       </div>
       <div className="min-h-screen bg-primaryBackground text-white pt-32 space-y-20">
-        <div>
-          <span className="font-bold text-6xl underline decoration-[#d97706]">
+      <div class="relative">
+          <span class="font-bold text-6xl">HISTORY</span>
+          <span class="font-bold outline-heading text-6xl absolute left-2">
             HISTORY
           </span>
+          <div className="bg-[#ef4444] h-2 w-24 mr-auto ml-60 mt-2"></div>
         </div>
 
-        <div className="flex flex-col justify-center lg:ml-4">
+        <div className="flex flex-col justify-center text-justify lg:ml-4">
           <p className="text-lg">
             The club was created with the goal of providing students with a
             community where they can learn and develop their skills in
@@ -61,7 +64,7 @@ function About() {
         <div className="flex flex-col lg:flex-row justify-center">
           <div className="lg:w-1/2">
             <img
-              className="lg:mx-auto border-4 border-yellow-500 h-full w-full lg:overflow-hidden rounded-lg max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              className="lg:mx-auto h-full w-full lg:overflow-hidden rounded-sm max-w-2xl ml-2 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
               src="/about2.jpeg"
               alt="history image"
             />

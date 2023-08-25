@@ -10,8 +10,11 @@ module.exports = {
       colors: {
         custommonth: "#F18C00",
         orangeHeader: "#F18C00",
-        primaryBackground: "#1D1D1D",
+        primaryBackground: "#151319",
       },
+      fontFamily: {
+        body: ['Lexend', 'sans-serif'],
+      }
     },
   },
   plugins: [],

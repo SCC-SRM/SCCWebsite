@@ -1,17 +1,27 @@
 import Snowfall from "react-snowfall";
+
 function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col items-center">
       <Snowfall snowflakeCount={150} />
-      <img
+      {/* <img
         src="/swift.svg"
         alt="Your SVG"
         class="lg:mt-24 lg:ml-8 h-60 w-30 object-contain float-right text-center"
-      />
-      <section className="text-8xl flex-1 font-bold lg:flex center lg:mt-4 tracking-wide">
+      /> */}
+      <img className="fixed top-8 h-[42vw]" src="bg-swift.svg"></img>
+      <section className="font-bold font-body text-5xl lg:text-8xl text-center center lg:mt-32 tracking-wide">
+      <p className="outline-heading drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
+          Swift Coding Club
+        </p>
         <p className="drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
           Swift Coding Club
         </p>
+        <p className="outline-heading drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
+          Swift Coding Club
+        </p>
+
+
         {/* <div className="text-sm w-full flex flex-col items-center drop-shadow-[0_25px_25px_#0003] gap-4">
           <div className="flex flex-col items-center">
             {"EXPLORE NOW".split("").map((text, index) => (
