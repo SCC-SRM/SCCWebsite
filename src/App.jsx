@@ -9,7 +9,10 @@ import Events from "./components/events/Events";
 
 function App() {
   return (
-    <div className="min-h-full bg-primaryBackground text-white">
+    <div className="min-h-full items-center bg-primaryBackground text-white">
+      <div className="flex flex-col items-center">
+        <img className="fixed top-9 mx-auto h-[42vw]" src="bg-swift.svg"></img>
+      </div>
       <BrowserRouter>
         <Nav />
         <Routes>

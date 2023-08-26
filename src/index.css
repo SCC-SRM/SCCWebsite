@@ -4,20 +4,20 @@
 
 @font-face {
   font-family: "Lexend";
-  src: url("../public/fonts/Lexend/static/Lexend-Regular.ttf");
+  src: url("/fonts/Lexend/static/Lexend-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("../public/fonts/Lexend/static/Lexend-Light.ttf");
+  src: url("/fonts/Lexend/static/Lexend-Light.ttf");
   font-style: Light;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Lexend";
-  src: url("../public/fonts/Lexend/static/Lexend-Bold.ttf");
+  src: url("/fonts/Lexend/static/Lexend-Bold.ttf");
   font-style: Bold;
   font-weight: 700;
 }

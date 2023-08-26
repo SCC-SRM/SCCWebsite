@@ -4,12 +4,6 @@ function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center">
       <Snowfall snowflakeCount={150} />
-      {/* <img
-        src="/swift.svg"
-        alt="Your SVG"
-        class="lg:mt-24 lg:ml-8 h-60 w-30 object-contain float-right text-center"
-      /> */}
-      <img className="fixed top-8 h-[42vw]" src="bg-swift.svg"></img>
       <section className="font-bold font-body text-5xl lg:text-8xl text-center center lg:mt-32 tracking-wide">
       <p className="outline-heading drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
           Swift Coding Club
