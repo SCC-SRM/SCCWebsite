@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend/static/Lexend-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend/static/Lexend-Light.ttf");
+  font-style: Light;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("/fonts/Lexend/static/Lexend-Bold.ttf");
+  font-style: Bold;
+  font-weight: 700;
+}
+
+.outline-heading {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
+}
+
 *,
 *::after,
 *::before {
@@ -17,6 +44,7 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+
 
 body {
   line-height: 1.5;

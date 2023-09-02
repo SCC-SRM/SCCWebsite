@@ -1,7 +1,6 @@
 import { ReactComponent as TechnicalIcon } from "../../assets/domains_asset/technical.svg";
 import { ReactComponent as CreativesIcon } from "../../assets/domains_asset/creatives.svg";
 import { ReactComponent as CorporatesIcon } from "../../assets/domains_asset/corporate.svg";
-import { useLayoutEffect } from "react";
 
 const Domains = () => {
   return (

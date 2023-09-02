@@ -3,10 +3,15 @@ import ProjectsData from "./ProjectsData";
 
 function Projects() {
   return (
-    <div className="min-h-full bg-primaryBackground text-white py-16">
-      <div className="w-1/4">
-        <span className="font-bold text-6xl">PROJECTS</span>
-        <div className="bg-[#ef4444] h-2 w-24 ml-auto mt-2"></div>
+    <div className="min-h-full bg-primaryBackground text-white py-16 font-body">
+      <div>
+        <div class="relative">
+          <span class="font-bold text-6xl">PROJECTS</span>
+          <span class="font-bold outline-heading text-6xl absolute left-2 ">
+            PROJECTS
+          </span>
+          <div className="bg-[#ef4444] h-2 w-24 mr-auto ml-60 mt-2"></div>
+        </div>
       </div>
       <div className="projects-section p-10">
         <ul className="flex overflow-x-scroll list-none h-full margin-auto py-10 gap-10 projects-scrollbar">
