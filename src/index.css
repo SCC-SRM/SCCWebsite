@@ -49,6 +49,8 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  /* background-color: transparent; */
+  /* background-image: url("/bg-swift.svg"); */
 }
 
 canvas,
@@ -94,4 +96,9 @@ p {
 }
 .projects-scrollbar::-webkit-scrollbar-corner {
   background: #fff3;
+}
+
+
+.register-button:hover .slide {
+  transform: translateX(0.25rem);
 }

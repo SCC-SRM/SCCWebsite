@@ -22,6 +22,7 @@
     "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.13",
     "gh-pages": "^5.0.0",
