@@ -1,4 +1,4 @@
-import Button from "../../../assets/button/Button";
+import Button from '../../../assets/button/Button'
 
 export default function ProjectPageCard(props) {
   return (
@@ -19,5 +19,5 @@ export default function ProjectPageCard(props) {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -11,7 +11,7 @@ function LandingPage() {
       <About />
       <Projects />
       <DomainsDescription />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   )
 }
