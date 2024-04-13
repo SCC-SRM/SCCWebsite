@@ -388,7 +388,7 @@ function Results() {
       )}
 
       {selectedDomain === "technical" && (
-        <div className="mt-8">
+        <div className="mt-8 overflow-x-scroll projects-scrollbar">
           <h2 className="text-2xl font-semibold mb-4">Technical Domain</h2>
           <table className="w-full border-collapse border border-white">
             <thead>
@@ -403,16 +403,153 @@ function Results() {
               <tr>
                 <td className="border border-white text-center px-4 py-2">1</td>
                 <td className="border border-white text-center px-4 py-2">
-                  456
+                  RA2211003010430
                 </td>
                 <td className="border border-white text-center px-4 py-2">
-                  DEF
+                  Shubham Kumar Singh
                 </td>
                 <td className="border border-white text-center px-4 py-2">
                   Technical
                 </td>
               </tr>
-              {/* Add more rows as needed */}
+              <tr>
+                <td className="border border-white text-center px-4 py-2">2</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211003011998
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Yash Pokalwar
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">3</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311030010162
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Parth Nath Chauhan
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">4</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311030010165
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Chavan Sushant Sopan
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">5</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311003011003
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Shourya Thakur
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">6</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311026010002
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Arnav Ghosh
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">7</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311030010178
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Srijan Sarkar
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">8</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311026010006
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Anjany Kumar Jaiswal
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">9</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311032010053
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Sabarish Sriram
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">
+                  10
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211030010051
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Yatharth Bhatia
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">
+                  11
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211028010006
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Augnik Banerjee
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">
+                  12
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211033010120
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Piyush Chandra
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Technical
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
