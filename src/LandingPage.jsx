@@ -1,8 +1,9 @@
-import About from './components/about/About'
-import Home from './components/home/Home'
-import Contact from './components/contact/Contact'
-import Projects from './components/projects/section/Projects'
-import DomainsDescription from './components/domains/DomainsDescription'
+import About from "./components/about/About";
+import Home from "./components/home/Home";
+import Contact from "./components/contact/Contact";
+import Projects from "./components/projects/section/Projects";
+import DomainsDescription from "./components/domains/DomainsDescription";
+import PastEvents from "./components/events/PastEvents";
 
 function LandingPage() {
   return (
@@ -11,9 +12,10 @@ function LandingPage() {
       <About />
       <Projects />
       <DomainsDescription />
+      <PastEvents />
       {/* <Contact /> */}
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;
