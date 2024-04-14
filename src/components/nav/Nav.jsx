@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Link } from "../utils/CustomLink";
+import Results from "../results/Results";
 
 function Nav() {
   const location = useLocation();
@@ -31,7 +32,7 @@ function Nav() {
                 <>Go back</>
               )}
             </Link>*/}
-        <Link
+        {/*<Link
           href="https://8oqahungyy5.typeform.com/to/oFNPeOqN"
           className="text-center flex items-center justify-center gap-1 text-white bg-[#40231F] border-0 py-2 px-6 focus:outline-none hover:bg-[#40231F] rounded-md text-lg register-button cursor-pointer mr-4 md:mr-0"
           target="blank"
@@ -39,6 +40,16 @@ function Nav() {
         >
           Register for recruitments{" "}
           <ArrowRight className="transition duration-300 slide" />
+          </Link>*/}
+        <Link
+          href=""
+          onClick={(e) => {
+            e.preventDefault();
+            window.open("/Results", "_blank");
+          }}
+          className="text-center flex items-center justify-center gap-1 text-white bg-[#40231F] border-0 py-2 px-6 focus:outline-none hover:bg-[#40231F] rounded-md text-lg register-button cursor-pointer mr-4 md:mr-0"
+        >
+          Results <ArrowRight className="transition duration-300 slide" />
         </Link>
       </div>
     </header>
