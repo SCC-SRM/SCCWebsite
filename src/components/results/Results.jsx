@@ -381,6 +381,20 @@ function Results() {
                   Corporate
                 </td>
               </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">
+                  25
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311005010037
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Abhyuday Singh
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Corporate
+                </td>
+              </tr>
               {/* Add more rows as needed */}
             </tbody>
           </table>
