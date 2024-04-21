@@ -38,7 +38,7 @@ function Results() {
         >
           Technical
         </button>
-        {/*<button
+        <button
           onClick={() => handleDomainChange("creatives")}
           className={`px-4 py-2 text-lg font-semibold rounded-lg focus:outline-none ${
             selectedDomain === "creatives"
@@ -47,7 +47,7 @@ function Results() {
           }`}
         >
           Creatives
-        </button>*/}
+        </button>
       </div>
 
       {selectedDomain === "corporate" && (
@@ -570,7 +570,7 @@ function Results() {
       )}
 
       {selectedDomain === "creatives" && (
-        <div className="mt-8">
+        <div className="mt-8 overflow-x-scroll projects-scrollbar">
           <h2 className="text-2xl font-semibold mb-4">Creatives Domain</h2>
           <table className="w-full border-collapse border border-white">
             <thead>
@@ -585,16 +585,99 @@ function Results() {
               <tr>
                 <td className="border border-white text-center px-4 py-2">1</td>
                 <td className="border border-white text-center px-4 py-2">
-                  789
+                  RA2211003011201
                 </td>
                 <td className="border border-white text-center px-4 py-2">
-                  GHI
+                  Sai Jeevan Thuraka
                 </td>
                 <td className="border border-white text-center px-4 py-2">
                   Creatives
                 </td>
               </tr>
-              {/* Add more rows as needed */}
+              <tr>
+                <td className="border border-white text-center px-4 py-2">2</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2311050010015
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Akrish
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">3</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211003011098
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  AYUSH SHUKLA
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">4</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2212701010026
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Jerin Klaudia A
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">5</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211027010178
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Dev Patel
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">6</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211003011190
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Tavish P
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">7</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211033010202
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Mann Kumar Attri
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-white text-center px-4 py-2">8</td>
+                <td className="border border-white text-center px-4 py-2">
+                  RA2211003011034
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Diva Merja
+                </td>
+                <td className="border border-white text-center px-4 py-2">
+                  Creatives
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
