@@ -7,6 +7,7 @@ import Domains from "./components/domains/Domains";
 import Nav from "./components/nav/Nav";
 import Events from "./components/events/Events";
 import Results from "./components/results/Results";
+import RecruitmentForm from "./components/recruitments/RecruitmentForm";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/domains" element={<Domains />} />
           <Route path="/results" element={<Results />} />
+          <Route path="/recruitments" element={<RecruitmentForm />} />
         </Routes>
       </BrowserRouter>
       <Footer />

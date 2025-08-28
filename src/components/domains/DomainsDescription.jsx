@@ -53,13 +53,13 @@ function DomainsDescription() {
   });
   return (
     <div id="domainDescRoot">
-        <div class="relative">
-          <span class="font-bold text-6xl">DOMAINS</span>
-          <span class="font-bold outline-heading text-6xl absolute left-2 ">
-            DOMAINS
-          </span>
-          <div className="bg-[#ef4444] h-2 w-24 mr-auto ml-60 mt-2"></div>
-        </div>
+      <div class="relative">
+        <span class="font-bold text-6xl">DOMAINS</span>
+        <span class="font-bold outline-heading text-6xl absolute left-2 ">
+          DOMAINS
+        </span>
+        <div className="bg-[#ef4444] h-2 w-24 mr-auto ml-60 mt-2"></div>
+      </div>
 
       <div className="domainsDescriptionContent w-full relative flex flex-col">
         <div className="technicalDesc section text-lg domainDescSection w-fit m-10 p-[5%] shadow-2xl bg-[#1f1e1e] rounded-3xl">

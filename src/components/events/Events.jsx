@@ -1,6 +1,6 @@
-import React from 'react'
-import EventPageCard from './EventPageCard'
-import EventPageData from './EventPageData'
+import React from "react";
+import EventPageCard from "./EventPageCard";
+import EventPageData from "./EventPageData";
 
 function Events() {
   return (
@@ -19,12 +19,12 @@ function Events() {
             Event={element.Event}
           />
         ))} */}
-        <iframe
-          src="https://lu.ma/embed-checkout/evt-zQ0jdPo0W8LPz34"
-          className='border border-solid border-[#bfcbda88] rounded-md mx-auto w-full h-[650px]'
-        ></iframe>
+      <iframe
+        src="https://lu.ma/embed-checkout/evt-zQ0jdPo0W8LPz34"
+        className="border border-solid border-[#bfcbda88] rounded-md mx-auto w-full h-[650px]"
+      ></iframe>
     </div>
-  )
+  );
 }
 
-export default Events
+export default Events;
