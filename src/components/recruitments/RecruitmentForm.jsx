@@ -32,6 +32,16 @@ function RecruitmentForm() {
         -ms-user-select: none;
         cursor: default;
       }
+      
+      /* Mobile styles - cover full bottom row */
+      @media (max-width: 768px) {
+        .tally-overlay {
+          width: 100%;
+          height: 60px;
+          right: 0;
+          left: 0;
+        }
+      }
     `;
     document.head.appendChild(style);
 

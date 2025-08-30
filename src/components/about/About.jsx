@@ -23,7 +23,7 @@ function About() {
         </div>
 
         <div className="flex flex-col justify-center text-justify lg:w-1/2 lg:ml-4">
-          <p className="text-lg mb-4 mt-12 mr-16 lg:ml-4">
+          <p className="text-lg mb-4 mt-12">
             The Swift Coding Club aims to make coding more accessible and
             enjoyable for everyone. Our diverse membership includes both
             professionals and students who share a passion for learning and
