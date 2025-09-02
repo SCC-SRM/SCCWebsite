@@ -11,7 +11,7 @@ function RecruitmentForm() {
       const script = document.createElement("script");
       script.id = "tally-embed-script";
       script.async = true;
-      script.src = import.meta.env.VITE_SCRIPT_URL;
+      script.src = "https://tally.so/widgets/embed.js";
       document.body.appendChild(script);
     }
 
@@ -21,7 +21,7 @@ function RecruitmentForm() {
       // delay state update
       setTimeout(() => {
         setIsLoaded(true);
-      }, 550);
+      }, 650);
     };
 
     const iframe = iframeRef.current;
@@ -78,7 +78,7 @@ function RecruitmentForm() {
   useEffect(() => {
     const style = document.getElementById('tally-overlay-style');
     if (style) {
-      const backgroundColor = isLoaded ? import.meta.env.VITE_OVERLAY_BG_COLOR : '#FFFFFF';
+      const backgroundColor = isLoaded ? '#151319' : '#FFFFFF';
       style.textContent = `
         .tally-overlay {
           position: fixed;
@@ -113,7 +113,7 @@ function RecruitmentForm() {
       {/* form iframe */}
       <iframe
         ref={iframeRef}
-        data-tally-src={import.meta.env.VITE_FORM_URL}
+        data-tally-src="https://tally.so/r/wAE8GN"
         width="100%"
         height="100%"
         title="Join the Swift Coding Club – SRM"
