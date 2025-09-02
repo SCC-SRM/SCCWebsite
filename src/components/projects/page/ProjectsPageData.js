@@ -1,47 +1,49 @@
 const ProjectsPageData = [
   {
     key: 1,
-    title: "Medbin",
-    image: "projectsample.jpg",
+    title: "Med-Bin",
+    image: "medbin.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam ante vitae leo tincidunt, vel feugiat dui maximus. Fusce et ultrices tellus. Ut eleifend in enim porta ultrices. Cras sagittis nunc a nibh vestibulum, et convallis mi interdum. Vivamus tincidunt volutpat tristique. Donec ac nisl rhoncus mi viverra accumsan. Aliquam erat volutpat. Suspendisse posuere nisi non risus ultrices tincidunt. Etiam mi purus, finibus at posuere vitae, rutrum in sapien. Donec a gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed pellentesque dui. Quisque sed ipsum ligula. Suspendisse pulvinar diam dignissim consectetur vehicula. In eros quam, feugiat ut sem pretium, blandit ornare libero. Curabitur ut diam hendrerit, mollis odio commodo, dapibus quam. Nulla condimentum enim a interdum pulvinar. Quisque cursus cursus tortor id rhoncus. Phasellus in fermentum risus. Vestibulum porta lacinia augue, et mattis massa pharetra et. In hac habitasse platea dictumst. Proin ut sapien ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed elementum porta metus a tincidunt.",
+      "Med-bin is a three step process to manage the bio-medical waste. The first step is awareness on waste disposal, second is to train medical professionals on waste segregation and third is an invention for waste segregation at source point and features to penalise and retrain the potential defaulters.",
+    demolink: "https://github.com/SCC-SRM",
+    repolink: "https://github.com/SCC-SRM",
   },
   {
     key: 2,
-    title: "Just Smile",
-    image: "projectsample.jpg",
+    title: "Cheese Lock",
+    image: "cheeselock.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam ante vitae leo tincidunt, vel feugiat dui maximus. Fusce et ultrices tellus. Ut eleifend in enim porta ultrices. Cras sagittis nunc a nibh vestibulum, et convallis mi interdum. Vivamus tincidunt volutpat tristique. Donec ac nisl rhoncus mi viverra accumsan. Aliquam erat volutpat. Suspendisse posuere nisi non risus ultrices tincidunt. Etiam mi purus, finibus at posuere vitae, rutrum in sapien. Donec a gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed pellentesque dui. Quisque sed ipsum ligula. Suspendisse pulvinar diam dignissim consectetur vehicula. In eros quam, feugiat ut sem pretium, blandit ornare libero. Curabitur ut diam hendrerit, mollis odio commodo, dapibus quam. Nulla condimentum enim a interdum pulvinar. Quisque cursus cursus tortor id rhoncus. Phasellus in fermentum risus. Vestibulum porta lacinia augue, et mattis massa pharetra et. In hac habitasse platea dictumst. Proin ut sapien ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed elementum porta metus a tincidunt.",
+      "People smile very less these days, but they spend most of the time looking at their phone expressionless. Cheese Lock is an app-lock application which locks any app its applied to and unlocks it using facial identification. The uniqueness of our app is that it will once in a day, at any random interval of time, scan the face but only open the app if the person smiles.",
     demolink: "https://github.com/SCC-SRM",
     repolink: "https://github.com/SCC-SRM",
   },
   {
     key: 3,
-    title: "Web Portfolio",
-    image: "projectsample.jpg",
+    title: "AI Story Book",
+    image: "aistorybook.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam ante vitae leo tincidunt, vel feugiat dui maximus. Fusce et ultrices tellus. Ut eleifend in enim porta ultrices. Cras sagittis nunc a nibh vestibulum, et convallis mi interdum. Vivamus tincidunt volutpat tristique. Donec ac nisl rhoncus mi viverra accumsan. Aliquam erat volutpat. Suspendisse posuere nisi non risus ultrices tincidunt. Etiam mi purus, finibus at posuere vitae, rutrum in sapien. Donec a gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed pellentesque dui. Quisque sed ipsum ligula. Suspendisse pulvinar diam dignissim consectetur vehicula. In eros quam, feugiat ut sem pretium, blandit ornare libero. Curabitur ut diam hendrerit, mollis odio commodo, dapibus quam. Nulla condimentum enim a interdum pulvinar. Quisque cursus cursus tortor id rhoncus. Phasellus in fermentum risus. Vestibulum porta lacinia augue, et mattis massa pharetra et. In hac habitasse platea dictumst. Proin ut sapien ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed elementum porta metus a tincidunt.",
+      "AI Storybook is a tool which can create real time stories as per the prompt given by the user. It is a highly personalized and customizable tool which can build customized stories in seconds. The tool analyzes a given input prompt and generates a pictorial story around the given prompt.",
     demolink: "https://github.com/SCC-SRM",
     repolink: "https://github.com/SCC-SRM",
   },
-  {
-    key: 4,
-    title: "Discord Bot",
-    image: "projectsample.jpg",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam ante vitae leo tincidunt, vel feugiat dui maximus. Fusce et ultrices tellus. Ut eleifend in enim porta ultrices. Cras sagittis nunc a nibh vestibulum, et convallis mi interdum. Vivamus tincidunt volutpat tristique. Donec ac nisl rhoncus mi viverra accumsan. Aliquam erat volutpat. Suspendisse posuere nisi non risus ultrices tincidunt. Etiam mi purus, finibus at posuere vitae, rutrum in sapien. Donec a gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed pellentesque dui. Quisque sed ipsum ligula. Suspendisse pulvinar diam dignissim consectetur vehicula. In eros quam, feugiat ut sem pretium, blandit ornare libero. Curabitur ut diam hendrerit, mollis odio commodo, dapibus quam. Nulla condimentum enim a interdum pulvinar. Quisque cursus cursus tortor id rhoncus. Phasellus in fermentum risus. Vestibulum porta lacinia augue, et mattis massa pharetra et. In hac habitasse platea dictumst. Proin ut sapien ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed elementum porta metus a tincidunt.",
-    demolink: "https://github.com/SCC-SRM",
-    repolink: "https://github.com/SCC-SRM",
-  },
-  {
-    key: 5,
-    title: "Website Bot",
-    image: "projectsample.jpg",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam ante vitae leo tincidunt, vel feugiat dui maximus. Fusce et ultrices tellus. Ut eleifend in enim porta ultrices. Cras sagittis nunc a nibh vestibulum, et convallis mi interdum. Vivamus tincidunt volutpat tristique. Donec ac nisl rhoncus mi viverra accumsan. Aliquam erat volutpat. Suspendisse posuere nisi non risus ultrices tincidunt. Etiam mi purus, finibus at posuere vitae, rutrum in sapien. Donec a gravida felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed pellentesque dui. Quisque sed ipsum ligula. Suspendisse pulvinar diam dignissim consectetur vehicula. In eros quam, feugiat ut sem pretium, blandit ornare libero. Curabitur ut diam hendrerit, mollis odio commodo, dapibus quam. Nulla condimentum enim a interdum pulvinar. Quisque cursus cursus tortor id rhoncus. Phasellus in fermentum risus. Vestibulum porta lacinia augue, et mattis massa pharetra et. In hac habitasse platea dictumst. Proin ut sapien ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed elementum porta metus a tincidunt.",
-    demolink: "https://github.com/SCC-SRM",
-    repolink: "https://github.com/SCC-SRM",
-  },
+  // {
+  //   key: 4,
+  //   title: "Discord Bot",
+  //   image: "projectsample.jpg",
+  //   description:
+  //     "A sophisticated Discord bot designed to enhance server management and user experience. This bot includes features like automated moderation, welcome messages, role management, and interactive commands. Built with modern programming practices, it provides seamless integration with Discord's API while maintaining high performance and reliability for community servers.",
+  //   demolink: "https://github.com/SCC-SRM",
+  //   repolink: "https://github.com/SCC-SRM",
+  // },
+  // {
+  //   key: 5,
+  //   title: "Website Bot",
+  //   image: "projectsample.jpg",
+  //   description:
+  //     "An intelligent web automation bot that streamlines various online tasks and processes. This bot can handle repetitive web operations, data collection, and automated testing, making it an invaluable tool for developers and businesses looking to optimize their web-based workflows and improve efficiency.",
+  //   demolink: "https://github.com/SCC-SRM",
+  //   repolink: "https://github.com/SCC-SRM",
+  // },
 ];
 
 export default ProjectsPageData;

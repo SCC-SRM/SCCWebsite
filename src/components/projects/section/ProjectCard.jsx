@@ -5,5 +5,5 @@ export default function ProjectCard(props) {
       <p className="font-light">{props.description}</p>
       <img className="absolute bottom-0" src={props.image}></img>
     </div>
-  )
+  );
 }

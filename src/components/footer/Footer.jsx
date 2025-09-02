@@ -1,17 +1,17 @@
-import { Instagram, Linkedin, Mail, Phone, Twitter } from 'lucide-react'
+import { Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 
 function Footer() {
   const handleCopy = (e) => {
-    e.stopPropagation()
-    const element = e.currentTarget
-    const svg = e.currentTarget.firstElementChild
-    const textToCopy = e.currentTarget.dataset.text
-    navigator.clipboard.writeText(textToCopy)
-    e.currentTarget.textContent = 'copied!'
+    e.stopPropagation();
+    const element = e.currentTarget;
+    const svg = e.currentTarget.firstElementChild;
+    const textToCopy = e.currentTarget.dataset.text;
+    navigator.clipboard.writeText(textToCopy);
+    e.currentTarget.textContent = "copied!";
     setTimeout(() => {
-      element.innerHTML = `${svg.outerHTML}${textToCopy}`
-    }, 3000)
-  }
+      element.innerHTML = `${svg.outerHTML}${textToCopy}`;
+    }, 3000);
+  };
 
   return (
     <div className="py-6 sm:py-16 pb-10 text-white px-4">
@@ -20,25 +20,28 @@ function Footer() {
           <a
             href="/"
             onClick={(e) => {
-              e.preventDefault()
+              e.preventDefault();
               document.body.firstElementChild.scrollIntoView({
-                behavior: 'smooth',
-              })
+                behavior: "smooth",
+              });
             }}
-            className="hover:text-white py-1.5 px-2 sm:border-b-0 sm:px-0 sm:py-0 transition-colors border-b border-b-gray-700 outline-none focus-within:text-white">
+            className="hover:text-white py-1.5 px-2 sm:border-b-0 sm:px-0 sm:py-0 transition-colors border-b border-b-gray-700 outline-none focus-within:text-white"
+          >
             Back to Home
           </a>
         </p>
         <div
           className="flex justify-center items-center flex-row sm:flex-row text-center px-2
-        ">
+        "
+        >
           <div className="max-w-[600px]">
             <p className="flex justify-center items-center text-md">
               <a
                 href="/"
-                className="inline-flex items-center font-medium hover:text-gray-400 text-lg text-white transition-colors outline-none focus-within:text-gray-400">
+                className="inline-flex items-center font-medium hover:text-gray-400 text-lg text-white transition-colors outline-none focus-within:text-gray-400"
+              >
                 <img
-                  src={'/swift.svg'}
+                  src={"/swift.svg"}
                   alt="sccsrm"
                   height={30}
                   width={30}
@@ -50,7 +53,8 @@ function Footer() {
               <a
                 href="https://instagram.com/sccsrm"
                 className="px-1.5 bg-[#DD524C] font-regular py-1 rounded-md text-sm outline-none focus:ring"
-                target="_blank">
+                target="_blank"
+              >
                 <span className="hidden sm:inline">@sccsrm</span>
                 <span className="inline sm:hidden">Swift Coding Club</span>
               </a>
@@ -59,13 +63,15 @@ function Footer() {
               <a
                 href="http://instagram.com/sccsrm"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <Instagram className="h-6 w-6 text-white hover:text-gray-400 transition-colors" />
               </a>
               <a
                 href="http://linkedin.com/in/company/apple-developers-group-srm"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <Linkedin className="h-6 w-6 text-white hover:text-gray-400 transition-colors" />
               </a>
             </div>
@@ -78,7 +84,8 @@ function Footer() {
               <button
                 onClick={handleCopy}
                 className="hover:text-white outline-none focus-within:text-white"
-                data-text="info@sccsrm.com">
+                data-text="info@sccsrm.com"
+              >
                 <Mail className="w-4 h-4 inline-block mr-1" />
                 swiftcodingclubsrm@gmail.com
               </button>
@@ -86,7 +93,8 @@ function Footer() {
               <button
                 onClick={handleCopy}
                 className="hover:text-white outline-none focus-within:text-white"
-                data-text="+916306637123">
+                data-text="+916306637123"
+              >
                 <Phone className="w-4 h-4 inline-block mr-1" />
                 +91 63066 37123
               </button>
@@ -95,7 +103,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -13,8 +13,8 @@ module.exports = {
         primaryBackground: "#151319",
       },
       fontFamily: {
-        body: ['Lexend', 'sans-serif'],
-      }
+        body: ["Lexend", "sans-serif"],
+      },
     },
   },
   plugins: [],

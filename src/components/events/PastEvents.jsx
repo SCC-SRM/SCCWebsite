@@ -36,7 +36,7 @@ function PastEvents() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center">
+      <div className="flex flex-col lg:flex-row justify-center text-justify">
         <div className="lg:w-2/3">
           <p className="text-base lg:text-lg mt-6 lg:mt-8 mx-4 lg:mx-0">
             <b>

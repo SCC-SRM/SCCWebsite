@@ -1,11 +1,11 @@
-import Snowfall from 'react-snowfall'
+import Snowfall from "react-snowfall";
 
 function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center">
       <Snowfall snowflakeCount={100} />
       <section className="font-bold font-body text-5xl lg:text-8xl text-center center tracking-wide h-[calc(100vh-96px-100px)] flex flex-col justify-center items-center">
-      <p className="outline-heading drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
+        <p className="outline-heading drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
           Swift Coding Club
         </p>
         <p className="drop-shadow-[0_25px_25px_#0003] lg:mt-0 mt-8 mx-auto">
@@ -39,7 +39,7 @@ function Home() {
         </div> */}
       </section>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -25,3 +25,6 @@ dist-ssr
 
 # Extras
 bun.lockb
+
+# Environment variables
+.env

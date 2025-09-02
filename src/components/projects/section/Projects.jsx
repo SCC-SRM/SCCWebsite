@@ -1,5 +1,5 @@
-import ProjectCard from './ProjectCard'
-import ProjectsData from './ProjectsData'
+import ProjectCard from "./ProjectCard";
+import ProjectsData from "./ProjectsData";
 
 function Projects() {
   return (
@@ -15,10 +15,10 @@ function Projects() {
       </div>
       <div className="projects-section p-10">
         <ul className="flex overflow-x-scroll list-none h-full margin-auto py-10 gap-10 projects-scrollbar">
-          {ProjectsData.map(element => (
+          {ProjectsData.map((element) => (
             <li key={element.key}>
               <ProjectCard
-              image={element.image}
+                image={element.image}
                 title={element.title}
                 description={element.description}
               />
@@ -27,7 +27,7 @@ function Projects() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
