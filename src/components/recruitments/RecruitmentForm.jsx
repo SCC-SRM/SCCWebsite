@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 function RecruitmentForm() {
   const iframeRef = useRef(null);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    // inject tally script if missing
+    // inject script if missing
     const existing = document.getElementById("tally-embed-script");
     if (!existing) {
       const script = document.createElement("script");
@@ -14,8 +15,24 @@ function RecruitmentForm() {
       document.body.appendChild(script);
     }
 
-    // add overlay style to hide badge
+    // iframe load handler with delay
+    const handleIframeLoad = () => {
+      console.log('Iframe loaded!');
+      // delay state update
+      setTimeout(() => {
+        setIsLoaded(true);
+      }, 550);
+    };
+
+    const iframe = iframeRef.current;
+    if (iframe) {
+      // bind load event
+      iframe.addEventListener('load', handleIframeLoad);
+      console.log('Event listener added to iframe');
+    }
+    // add overlay style
     const style = document.createElement("style");
+    style.id = "tally-overlay-style";
     style.textContent = `
       .tally-overlay {
         position: fixed;
@@ -23,7 +40,7 @@ function RecruitmentForm() {
         right: 0;
         width: 200px;
         height: 80px;
-        background: ${import.meta.env.VITE_OVERLAY_BG_COLOR};
+        background: #FFFFFF !important;
         z-index: 1001;
         pointer-events: auto;
         user-select: none;
@@ -44,15 +61,53 @@ function RecruitmentForm() {
       }
     `;
     document.head.appendChild(style);
+    console.log('Initial white overlay style added');
 
-    // cleanup style on unmount
+    // cleanup style and event listener on unmount
     return () => {
       if (style.parentNode) {
         style.parentNode.removeChild(style);
       }
+      if (iframe) {
+        iframe.removeEventListener('load', handleIframeLoad);
+      }
     };
   }, []);
 
+  // update overlay background based on load state
+  useEffect(() => {
+    const style = document.getElementById('tally-overlay-style');
+    if (style) {
+      const backgroundColor = isLoaded ? import.meta.env.VITE_OVERLAY_BG_COLOR : '#FFFFFF';
+      style.textContent = `
+        .tally-overlay {
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          width: 200px;
+          height: 80px;
+          background: ${backgroundColor} !important;
+          z-index: 1001;
+          pointer-events: auto;
+          user-select: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          cursor: default;
+        }
+        
+        /* mobile styles */
+        @media (max-width: 768px) {
+          .tally-overlay {
+            width: 100%;
+            height: 60px;
+            right: 0;
+            left: 0;
+          }
+        }
+      `;
+    }
+  }, [isLoaded]);
   return (
     <div className="fixed inset-0 z-[60] bg-white">
       {/* form iframe */}
